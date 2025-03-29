@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.booking-form {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section {
+    width: 48%;
+}
+
+.form-section img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+/* Red Bus Image */
+.form-section.bus img {
+    background-color: red; /* Placeholder color */
+    background-image: url('path_to_red_bus_image.jpg'); /* Replace with actual red bus image URL */
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* You can adjust the height */
+}
+
+/* Blue Flight Image */
+.form-section.flight img {
+    background-color: blue; /* Placeholder color */
+    background-image: url('path_to_blue_flight_image.jpg'); /* Replace with actual blue flight image URL */
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* You can adjust the height */
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.fare {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.payment-method {
+    margin-top: 20px;
+}
